@@ -94,6 +94,6 @@ build_script:
   - 7z a %DISTRIBNAME% distrib
   - appveyor PushArtifact %DISTRIBNAME% -DeploymentName MeshLabPortable
   - dir
-#  - cd ..\install
+#  - cd ..\install 
 #  - makensis /V4 meshlab-64bit-appveyor.nsi
 #  - dir ..\distrib
